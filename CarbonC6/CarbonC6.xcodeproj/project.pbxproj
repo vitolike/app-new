@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000100000000000000A1 /* CarbonC6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A1 /* CarbonC6App.swift */; };
+		A100000100000000000000A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A2 /* ContentView.swift */; };
+		A100000100000000000000A3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A3 /* Account.swift */; };
+		A100000100000000000000A4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A4 /* Transaction.swift */; };
+		A100000100000000000000A5 /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A5 /* TransactionCategory.swift */; };
+		A100000100000000000000A6 /* SeedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A6 /* SeedDataService.swift */; };
+		A100000100000000000000A7 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A7 /* HapticService.swift */; };
+		A100000100000000000000A8 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A8 /* DashboardViewModel.swift */; };
+		A100000100000000000000A9 /* CarbonTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000A9 /* CarbonTheme.swift */; };
+		A100000100000000000000B1 /* CarbonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B1 /* CarbonComponents.swift */; };
+		A100000100000000000000B2 /* CarbonMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B2 /* CarbonMarks.swift */; };
+		A100000100000000000000B3 /* NumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B3 /* NumberKeyboard.swift */; };
+		A100000100000000000000B4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B4 /* DashboardView.swift */; };
+		A100000100000000000000B5 /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B5 /* BalanceCardView.swift */; };
+		A100000100000000000000B7 /* QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B7 /* QuickActionsView.swift */; };
+		A100000100000000000000B8 /* RecentTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B8 /* RecentTransactionsView.swift */; };
+		A100000100000000000000B9 /* AddExpenseSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000B9 /* AddExpenseSheetView.swift */; };
+		A100000100000000000000C3 /* StatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000C3 /* StatementView.swift */; };
+		A100000100000000000000C4 /* CarbonPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000C4 /* CarbonPreviews.swift */; };
+		A100000100000000000000C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000200000000000000C5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A100000200000000000000A1 /* CarbonC6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonC6App.swift; sourceTree = "<group>"; };
+		A100000200000000000000A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A100000200000000000000A3 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		A100000200000000000000A4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A100000200000000000000A5 /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		A100000200000000000000A6 /* SeedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedDataService.swift; sourceTree = "<group>"; };
+		A100000200000000000000A7 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		A100000200000000000000A8 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		A100000200000000000000A9 /* CarbonTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonTheme.swift; sourceTree = "<group>"; };
+		A100000200000000000000B1 /* CarbonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonComponents.swift; sourceTree = "<group>"; };
+		A100000200000000000000B2 /* CarbonMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonMarks.swift; sourceTree = "<group>"; };
+		A100000200000000000000B3 /* NumberKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberKeyboard.swift; sourceTree = "<group>"; };
+		A100000200000000000000B4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A100000200000000000000B5 /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
+		A100000200000000000000B7 /* QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsView.swift; sourceTree = "<group>"; };
+		A100000200000000000000B8 /* RecentTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsView.swift; sourceTree = "<group>"; };
+		A100000200000000000000B9 /* AddExpenseSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheetView.swift; sourceTree = "<group>"; };
+		A100000200000000000000C3 /* StatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementView.swift; sourceTree = "<group>"; };
+		A100000200000000000000C4 /* CarbonPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonPreviews.swift; sourceTree = "<group>"; };
+		A100000200000000000000C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100000200000000000000D1 /* CarbonC6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonC6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000030000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000040000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000040000000000000003 /* CarbonC6 */,
+				A10000040000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000040000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000D1 /* CarbonC6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000003 /* CarbonC6 */ = {
+			isa = PBXGroup;
+			children = (
+				A10000040000000000000010 /* App */,
+				A10000040000000000000011 /* Models */,
+				A10000040000000000000012 /* Services */,
+				A10000040000000000000013 /* ViewModels */,
+				A10000040000000000000014 /* DesignSystem */,
+				A10000040000000000000015 /* Views */,
+				A10000040000000000000016 /* Preview */,
+				A100000200000000000000C5 /* Assets.xcassets */,
+			);
+			path = CarbonC6;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000010 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000A1 /* CarbonC6App.swift */,
+				A100000200000000000000A2 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000A3 /* Account.swift */,
+				A100000200000000000000A4 /* Transaction.swift */,
+				A100000200000000000000A5 /* TransactionCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000A6 /* SeedDataService.swift */,
+				A100000200000000000000A7 /* HapticService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000A8 /* DashboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000014 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000A9 /* CarbonTheme.swift */,
+				A100000200000000000000B1 /* CarbonComponents.swift */,
+				A100000200000000000000B2 /* CarbonMarks.swift */,
+				A100000200000000000000B3 /* NumberKeyboard.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10000040000000000000017 /* Dashboard */,
+				A10000040000000000000018 /* Sheets */,
+				A10000040000000000000019 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000016 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000C4 /* CarbonPreviews.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000017 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000B4 /* DashboardView.swift */,
+				A100000200000000000000B5 /* BalanceCardView.swift */,
+				A100000200000000000000B7 /* QuickActionsView.swift */,
+				A100000200000000000000B8 /* RecentTransactionsView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000018 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000B9 /* AddExpenseSheetView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		A10000040000000000000019 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A100000200000000000000C3 /* StatementView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000050000000000000001 /* CarbonC6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000090000000000000002 /* Build configuration list for PBXNativeTarget "CarbonC6" */;
+			buildPhases = (
+				A10000060000000000000001 /* Sources */,
+				A10000030000000000000001 /* Frameworks */,
+				A10000070000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonC6;
+			productName = CarbonC6;
+			productReference = A100000200000000000000D1 /* CarbonC6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000080000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A10000050000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000090000000000000001 /* Build configuration list for PBXProject "CarbonC6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-BR",
+				Base,
+			);
+			mainGroup = A10000040000000000000001;
+			productRefGroup = A10000040000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000050000000000000001 /* CarbonC6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000070000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000100000000000000C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000060000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000100000000000000A1 /* CarbonC6App.swift in Sources */,
+				A100000100000000000000A2 /* ContentView.swift in Sources */,
+				A100000100000000000000A3 /* Account.swift in Sources */,
+				A100000100000000000000A4 /* Transaction.swift in Sources */,
+				A100000100000000000000A5 /* TransactionCategory.swift in Sources */,
+				A100000100000000000000A6 /* SeedDataService.swift in Sources */,
+				A100000100000000000000A7 /* HapticService.swift in Sources */,
+				A100000100000000000000A8 /* DashboardViewModel.swift in Sources */,
+				A100000100000000000000A9 /* CarbonTheme.swift in Sources */,
+				A100000100000000000000B1 /* CarbonComponents.swift in Sources */,
+				A100000100000000000000B2 /* CarbonMarks.swift in Sources */,
+				A100000100000000000000B3 /* NumberKeyboard.swift in Sources */,
+				A100000100000000000000B4 /* DashboardView.swift in Sources */,
+				A100000100000000000000B5 /* BalanceCardView.swift in Sources */,
+				A100000100000000000000B7 /* QuickActionsView.swift in Sources */,
+				A100000100000000000000B8 /* RecentTransactionsView.swift in Sources */,
+				A100000100000000000000B9 /* AddExpenseSheetView.swift in Sources */,
+				A100000100000000000000C3 /* StatementView.swift in Sources */,
+				A100000100000000000000C4 /* CarbonPreviews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A100000A0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A100000A0000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A100000A0000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRPKLJ3H3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "C6 Carbon";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.carbonc6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A100000A0000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRPKLJ3H3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "C6 Carbon";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.victor.carbonc6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000090000000000000001 /* Build configuration list for PBXProject "CarbonC6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000A0000000000000001 /* Debug */,
+				A100000A0000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000090000000000000002 /* Build configuration list for PBXNativeTarget "CarbonC6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000A0000000000000003 /* Debug */,
+				A100000A0000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000080000000000000001 /* Project object */;
+}
